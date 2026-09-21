@@ -1,7 +1,7 @@
 # 최신 버전 정보 — 새 버전을 올릴 때 VERSION 과 NOTES 만 고치면 됩니다.
 # URL 은 releases/latest/download 이므로 고칠 필요 없습니다.
 
-VERSION=1.7
+VERSION=1.9
 
 NOTES=표지판 삽입: 새주소표지(도로명판) 자동 배치
 NOTES=표지판 삽입: 도면 비고의 도로명·건물번호를 심볼에 자동 반영
@@ -14,9 +14,11 @@ NOTES=구조화: 방호울타리 CM-SFTY-MISC 레이어 인식 추가
 NOTES=표지명칭을 코드표 기준으로 정리 (49998-96 -> 49998)
 NOTES=자동수정이 좌표계를 5179로 직접 변환 (따로 좌표변환 불필요)
 NOTES=구조화: 최대·최소 높이가 뒤바뀐 것 자동 정렬 (비탈면·옹벽·석축·측구)
+NOTES=구조화: 방호울타리 등급이 전부 5901로 들어가던 것 수정 (도면 값 우선)
+NOTES=구조화: 교량·고가·지하차도 면 안의 방호울타리는 5904로 (위험구간)
 NOTES=표지판 삽입: 심볼 매핑 118종 -> 145종 (누락 블록 복구)
 
 URL=https://github.com/yongmin738-cym/road-toolkit-license/releases/latest/download/RoadToolkit.zip
 
 # MIN 을 적으면 그 버전보다 낮은 사람은 업데이트해야 실행됩니다.
-# MIN=1.7
+# MIN=1.9
