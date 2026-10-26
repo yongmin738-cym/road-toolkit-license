@@ -1,7 +1,10 @@
 # RoadToolkit 최신 버전 안내 (GitHub road-toolkit-license 리포 main 에 올리는 파일)
 # 배포 순서: 1) Releases 에 새 RoadToolkit.zip 올리기  2) SHA256 적기(선택)  3) 이 파일 커밋
-VERSION=2.15
-NOTES=[새 기능] 납품정리 - 국도 DBF 조서(영문명칭.xls: MROAD·BRIDGE·XRAIL·SIGN·LANDUSE 등) 자동 작성, 도로구역은 500Y 도엽 이름(DWG_NAME)까지
+VERSION=2.16
+NOTES=[새 도구] NDB용 조서생성 - 국도 DBF 조서(영문명칭.xls)를 납품정리에서 따로 떼어 냄. 여러 구간 한 번에, 01_납품CD 폴더도 바로
+NOTES=납품정리는 납품 폴더·검수목록서·세부내역만 (국도 DBF 는 NDB용 조서생성에서)
+NOTES=도로구역 DWG_NAME - 노선 작업 폴더에 여러 노선이 있어도 그 노선·구간 500Y 도엽 이름만 씀
+NOTES=(v2.15) 납품정리 - 국도 DBF 조서(영문명칭.xls: MROAD·BRIDGE·XRAIL·SIGN·LANDUSE 등) 자동 작성, 도로구역은 500Y 도엽 이름(DWG_NAME)까지
 NOTES=논리오류검수 - 도로구역(R41) 같은 필지 중복 도형·지번 빈칸 찾기
 NOTES=도로구역(R41) 지번 없는 필지 - 지번 빈칸, 소유구분 기타(4499), 비고 '지번 없음'
 NOTES=[새 도구] 9. 납품정리 - 납품 폴더(01_납품CD\관리번호\LAYER·ETC, 500_P·U·Y, 02~04) 자동 구성
