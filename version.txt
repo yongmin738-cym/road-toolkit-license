@@ -1,6 +1,7 @@
 # RoadToolkit 최신 버전 안내 (GitHub road-toolkit-license 리포 main 에 올리는 파일)
 # 배포 순서: 1) Releases 에 새 RoadToolkit.zip 올리기  2) SHA256 적기(선택)  3) 이 파일 커밋
-VERSION=2.17
+VERSION=2.18
+NOTES=검수오류 자동수정 - 한 면이 mm 틈으로 갈린 멀티파트(예: 차도부경계 차도)를 나누지 않고 붙여 한 면으로
 NOTES=[새 기능] 주요시설물(교량·터널·육교·지하차도·고가도로·IC·지하보도) 필수 코드 빈칸을 코드표 기타로 채움 - 검수오류 자동수정·구조화(R02~R04)
 NOTES=기타가 없는 칸은 상태등급 B·진단결과 보통·방송설비 유, 넣은 칸은 기타입력목록(엑셀·메모장)에 정리
 NOTES=[새 도구] NDB용 조서생성 - 국도 DBF 조서(영문명칭.xls)를 납품정리에서 따로 떼어 냄. 여러 구간 한 번에, 01_납품CD 폴더도 바로
@@ -22,4 +23,4 @@ NOTES=자동수정 후 R01 재검수가 다른 레이어보다 먼저 돌아 생
 NOTES=시설물 구조화 결과 저장 폴더를 직접 고를 수 있게
 URL=https://github.com/yongmin738-cym/road-toolkit-license/releases/latest/download/RoadToolkit.zip
 # SHA256=  ← (선택) PowerShell: Get-FileHash RoadToolkit.zip -Algorithm SHA256 값 64자리. 틀리면 업데이트가 거부되니 모르면 이 줄은 주석 그대로
-# MIN=2.16 ← 급한 오류 때만 (낮은 버전 강제 업데이트)
+# MIN=2.15 ← 급한 오류 때만 (낮은 버전 강제 업데이트)
