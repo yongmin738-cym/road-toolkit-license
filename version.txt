@@ -1,8 +1,9 @@
 # 최신 버전 정보 — 새 버전을 올릴 때 VERSION 과 NOTES 만 고치면 됩니다.
 # URL 은 releases/latest/download 이므로 고칠 필요 없습니다.
 
-VERSION=2.19
+VERSION=2.20
 
+NOTES=NDB용 조서생성 - 터널 TUNNEL.xls, 생태통로 ECO_CORRIDOR.xls, 도로구역 ADDRESS 법정동 코드, 표지 SB_FILE·PROP, 가로수 NUM 1
 NOTES=검수오류 자동수정 - SERN 일괄 변경: 15자리 하나로 모든 레이어·레코드 SERN 을 연번 없이 같은 값으로, 파일명 앞 SERN 도 같이
 NOTES=검수오류 자동수정 - 한 면이 mm 틈으로 갈린 멀티파트(예: 차도부경계 차도)를 나누지 않고 붙여 한 면으로
 NOTES=[새 기능] 주요시설물(R02~R07·R15) 필수 코드 빈칸 -> 코드표 기타 + 기타입력목록(xlsx·txt)
