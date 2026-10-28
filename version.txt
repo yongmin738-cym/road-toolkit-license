@@ -1,8 +1,9 @@
 # 최신 버전 정보 — 새 버전을 올릴 때 VERSION 과 NOTES 만 고치면 됩니다.
 # URL 은 releases/latest/download 이므로 고칠 필요 없습니다.
 
-VERSION=2.21
+VERSION=2.22
 
+NOTES=논리오류검수·자동수정 - 지침 표 4.2 위상 상관관계(레이어끼리 교차·포함·중첩 85항목) 검사 추가
 NOTES=도로구역(R41) - 같은 구 용지도가 두 벌이면 같은 필지가 겹쳐 들어가던 것: 같은 자리는 한 파일 것만
 NOTES=NDB용 조서생성 - 터널 TUNNEL.xls, 생태통로 ECO_CORRIDOR.xls, 도로구역 ADDRESS 법정동 코드, 표지 SB_FILE·PROP, 가로수 NUM 1
 NOTES=검수오류 자동수정 - SERN 일괄 변경: 15자리 하나로 모든 레이어·레코드 SERN 을 연번 없이 같은 값으로, 파일명 앞 SERN 도 같이
