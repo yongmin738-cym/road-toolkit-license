@@ -1,14 +1,12 @@
 # 최신 버전 정보 — 새 버전을 올릴 때 VERSION 과 NOTES 만 고치면 됩니다.
 # URL 은 releases/latest/download 이므로 고칠 필요 없습니다.
 
-VERSION=2.23
+VERSION=3.1
 
-NOTES=논리오류검수·자동수정 - 지침 표 4.2 위상 상관관계(레이어끼리 교차·포함·중첩 85항목) 검사 추가
-NOTES=도로구역(R41) - 같은 구 용지도가 두 벌이면 같은 필지가 겹쳐 들어가던 것: 같은 자리는 한 파일 것만
-NOTES=NDB용 조서생성 - 터널 TUNNEL.xls, 생태통로 ECO_CORRIDOR.xls, 도로구역 ADDRESS 법정동 코드, 표지 SB_FILE·PROP, 가로수 NUM 1
-NOTES=검수오류 자동수정 - SERN 일괄 변경: 15자리 하나로 모든 레이어·레코드 SERN 을 연번 없이 같은 값으로, 파일명 앞 SERN 도 같이
-NOTES=검수오류 자동수정 - 한 면이 mm 틈으로 갈린 멀티파트(예: 차도부경계 차도)를 나누지 않고 붙여 한 면으로
-NOTES=[새 기능] 주요시설물(R02~R07·R15) 필수 코드 빈칸 -> 코드표 기타 + 기타입력목록(xlsx·txt)
+NOTES=[새 기능] 9. 납품정리 - 도로대장 조서 생성 (조서 PDF): 납품 CD 500P·U·Y 도엽 + 표지·위치도·목차·범례·간지 -> 조서 PDF 한 권 (책갈피)
+NOTES=조서 글자는 굴림체·굴림 PDF 글자로 김해 납품 조서와 같은 크기·자간·자리 / 목차·범례·간지는 김해 조서 쪽 그대로
+NOTES=도엽 표제란 통일 (사업명·납품일·업체·로고·과업책임자), 원하면 납품 DXF 에도 저장 (원본은 납품 CD 밖 백업)
+NOTES=노선명·소재지·구간·SECTION·위치도 시군·리동은 R01 총괄·검수목록서·500P 지명에서 자동 (서울 = 특별시도)
 
 URL=https://github.com/yongmin738-cym/road-toolkit-license/releases/latest/download/RoadToolkit.zip
 
