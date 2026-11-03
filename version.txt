@@ -1,15 +1,15 @@
-# 최신 버전 정보 — 새 버전을 올릴 때 VERSION 과 NOTES 만 고치면 됩니다.
-# URL 은 releases/latest/download 이므로 고칠 필요 없습니다.
-
-VERSION=3.1
-
-NOTES=[새 기능] 9. 납품정리 - 도로대장 조서 생성 (조서 PDF): 납품 CD 500P·U·Y 도엽 + 표지·위치도·목차·범례·간지 -> 조서 PDF 한 권 (책갈피)
-NOTES=조서 글자는 굴림체·굴림 PDF 글자로 김해 납품 조서와 같은 크기·자간·자리 / 목차·범례·간지는 김해 조서 쪽 그대로
-NOTES=도엽 표제란 통일 (사업명·납품일·업체·로고·과업책임자), 원하면 납품 DXF 에도 저장 (원본은 납품 CD 밖 백업)
-NOTES=노선명·소재지·구간·SECTION·위치도 시군·리동은 R01 총괄·검수목록서·500P 지명에서 자동 (서울 = 특별시도)
-
+# RoadToolkit 업데이트 정보 (UTF-8 로 저장)
+# 올리는 순서: 1) 릴리스에 RoadToolkit.zip 먼저 올림  2) 아래 SHA256 채움  3) 이 파일을 맨 마지막에 push
+# SHA256 구하기 (PowerShell):  Get-FileHash RoadToolkit.zip -Algorithm SHA256
+VERSION=3.3
+DATE=2026-11-03
+NOTES=[새 기능] 9. 납품정리 - 주요시설물 조서 작성(HWPX): 교량·터널·육교·지하차도·고가도로 양식 자동 작성
+NOTES=[새 기능] 조서에서 비어 있는 필수칸은 빨간색, 기타(99) 코드는 노란색 표시 + 주요시설물_조서작성목록.xlsx
+NOTES=[500P] 종단면도 아래 보도폭/도로폭/보도폭 칸을 현장 실측값으로 자동 기입 (아래=상행, 위=하행, 보도 없으면 위치 이동)
+NOTES=[500P] 작은 횡단면도 자동 배치 - 가드펜스/중앙 가드레일/황색선 등 현장에 맞는 그림과 치수
+NOTES=[500P] 수치지형도 표지판·신호등 심볼, 표고점(X표시·지반고) 제외 / SIGNTXT 글꼴 돋움
+NOTES=[500P] CONT 종단면도에 그려진 교량·터널 등 구조물 표기를 그대로 옮김
+NOTES=[납품정리] P·Y·U·TOP·CONT 도면을 DWG 로 넣음 (DXF 만 있으면 AutoCAD 로 변환)
+NOTES=[조서 PDF] DWG 만 있는 시트도 처리
 URL=https://github.com/yongmin738-cym/road-toolkit-license/releases/latest/download/RoadToolkit.zip
-
-# MIN 을 적으면 그 버전보다 낮은 사람은 업데이트해야 실행됩니다.
-# 급한 오류를 고쳤을 때만 쓰세요. 평소에는 비워 둡니다.
-# MIN=1.0
+SHA256=
