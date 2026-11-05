@@ -2,17 +2,9 @@
 # 올리는 순서: 1) 릴리스에 RoadToolkit.zip 먼저 올림  2) 아래 SHA256 채움  3) 이 파일을 맨 마지막에 push
 # SHA256 구하기 (PowerShell):  Get-FileHash RoadToolkit.zip -Algorithm SHA256
 VERSION=3.5
-DATE=2026-11-03
-# RoadToolkit v3.5 (2026-11-05)
-## 새 기능
-- **도로대장 조서표 PDF (NAHMIS 조서출력 양식)** — `9. 납품정리 ㉘`
-  - 구조화 최종 SHP → NAHMIS 조서출력과 같은 A4 양식의 조서 PDF 한 권 (NAHMIS·NDB 없이)
-  - 표지·목차·간지, 도로대장(총괄), 교량·터널·육교·지하차도·고가도로 제원, 교점~용지·충격흡수시설 조서 (정차대·공동구·깎기/쌓기면 포함)
-  - 모든 조서 관리번호 칸 채움, 교량 사진, 여러 구간 한 권, 표지 서울·부산·김해
-  - `_누락점검.csv`: 원본 양식에 칸이 있는데 조서에 안 나온 값만
-- **현장촬영영상 구간 나누기** — `9. 납품정리 ㉜`
-  - 시간표([상행/하행] 구간이름 시작 끝)대로 구간별 mp4, 다시 압축해 용량 줄이기 또는 원본 그대로 빠르게 (ffmpeg 내장)
-## 첫 화면
-- 카드형 버튼, 버튼 옆 설명은 한 줄로, 긴 설명은 마우스를 올리면 풍선으로
-
+DATE=2026-11-05
+NOTES=[새 메뉴] 9. 납품정리 - 도로대장 조서표 PDF: 구조화 SHP 로 NAHMIS 조서출력과 같은 양식의 조서 PDF 한 권 (누락점검 포함)
+NOTES=[새 메뉴] 9. 납품정리 - 현장촬영영상 구간 나누기: 시간표대로 영상 자르기 + 용량 줄이기
+NOTES=[화면] 첫 화면 새 디자인: 한 줄 설명, 카드형 버튼, 마우스를 올리면 긴 설명
+URL=https://github.com/yongmin738-cym/road-toolkit-license/releases/latest/download/RoadToolkit.zip
 SHA256=
