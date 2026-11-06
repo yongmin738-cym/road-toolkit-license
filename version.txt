@@ -1,7 +1,7 @@
 # RoadToolkit 업데이트 정보 (UTF-8 로 저장)
 # 올리는 순서: 1) 릴리스에 RoadToolkit.zip 먼저 올림  2) 아래 SHA256 채움  3) 이 파일을 맨 마지막에 push
 # SHA256 구하기 (PowerShell):  Get-FileHash RoadToolkit.zip -Algorithm SHA256
-VERSION=3.5
+VERSION=3.5.3
 DATE=2026-11-05
 NOTES=[새 메뉴] 9. 납품정리 - 도로대장 조서표 PDF: 구조화 SHP 로 NAHMIS 조서출력과 같은 양식의 조서 PDF 한 권 (누락점검 포함)
 NOTES=[새 메뉴] 9. 납품정리 - 현장촬영영상 구간 나누기: 시간표대로 영상 자르기 + 용량 줄이기
