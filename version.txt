@@ -1,10 +1,10 @@
 # RoadToolkit 업데이트 정보 (UTF-8 로 저장)
 # 올리는 순서: 1) 릴리스에 RoadToolkit.zip 먼저 올림  2) 아래 SHA256 채움  3) 이 파일을 맨 마지막에 push
 # SHA256 구하기 (PowerShell):  Get-FileHash RoadToolkit.zip -Algorithm SHA256
-VERSION=3.5.10
-DATE=2026-11-05
-NOTES=[새 메뉴] 9. 납품정리 - 도로대장 조서표 PDF: 구조화 SHP 로 NAHMIS 조서출력과 같은 양식의 조서 PDF 한 권 (누락점검 포함)
-NOTES=[새 메뉴] 9. 납품정리 - 현장촬영영상 구간 나누기: 시간표대로 영상 자르기 + 용량 줄이기
-NOTES=[화면] 첫 화면 새 디자인: 한 줄 설명, 카드형 버튼, 마우스를 올리면 긴 설명
+VERSION=3.5.15
+DATE=2026-11-09
+NOTES=[표지판 삽입] 리더끼리 엇갈림·다른 묶음 관통을 피해 자리 고름 (2111: 교차 146->98, 새 노선 83->36)
+NOTES=[표지판 삽입] 사진번호 있는 표지는 심볼·도로명판·완성본 묶음·리더 모두 사진 연결 (예전엔 안내판만)
+NOTES=[새 메뉴] AutoCAD 사진보기(PV) 등록 - PV 로 표지를 찍으면 캐드 창이 안 내려가고 사진이 열림 (표지판 삽입 때 자동 등록)
 URL=https://github.com/yongmin738-cym/road-toolkit-license/releases/latest/download/RoadToolkit.zip
 SHA256=
